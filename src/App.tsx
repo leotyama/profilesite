@@ -4,22 +4,22 @@ import { Link, Route } from "react-router-dom"
 function App() {
   return (
     <div className="card-container">
-      <img class="round" src="src/images/lyamashiro.jpg" alt="user"></img>
+      <img className="round" src="src/images/lyamashiro.jpg" alt="user"></img>
       <h2>Leonardo Tsutomu Yamashiro</h2>
       <h4>Campinas, SP - Brasil</h4>
       <p>Sotware Engineer <br /> Jr,</p>
-      <div class="buttons">
-        <a class='icon_area' href='https://www.linkedin.com/in/leonardo-tsutomu-yamashiro/' target="_blank">
-          <img class="icon" src="src/images/linkedin-logo.png" ></img>
+      <div className="buttons">
+        <a className='icon_area' href='https://www.linkedin.com/in/leonardo-tsutomu-yamashiro/' target="_blank">
+          <img className="icon" src="src/images/linkedin-logo.png" ></img>
         </a>
-        <a class='icon_area' href='https://github.com/leotyama' target="_blank">
-          <img class="icon" src="src/images/github-logo.png" ></img>
+        <a className='icon_area' href='https://github.com/leotyama' target="_blank">
+          <img className="icon" src="src/images/github-logo.png" ></img>
         </a>
-        <a class='icon_area' href='https://mail.google.com/mail/u/0/?fs=1&to=ltyamashiro@gmail.com&tf=cm' target="_blank">
-          <img class="icon" src="src/images/email-icon.png" ></img>
+        <a className='icon_area' href='https://mail.google.com/mail/u/0/?fs=1&to=ltyamashiro@gmail.com&tf=cm' target="_blank">
+          <img className="icon" src="src/images/email-icon.png" ></img>
         </a>
       </div>
-      <div class="skills">
+      <div className="skills">
         <h6>Skills</h6>
         <ul>
           <li>Drupal</li>
@@ -34,7 +34,7 @@ function App() {
           <li>Cucumber</li>
         </ul>
       </div>
-      <div class="learn">
+      <div className="learn">
         <h6>Learning</h6>
         <ul>
           <li>React</li>
