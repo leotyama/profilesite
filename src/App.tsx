@@ -4,19 +4,19 @@ import { Link, Route } from "react-router-dom"
 function App() {
   return (
      <div className="card-container">
-      <img className="round" src="./images/lyamashiro.jpg" alt=""></img>
+      <img className="round" src={"/static/img/lyamashiro.jpg"} alt=""></img>
       <h2>Leonardo Tsutomu Yamashiro</h2>
       <h4>Campinas, SP - Brasil</h4>
       <p className="position">Sotware Engineer <br /> Jr,</p>
       <div className="buttons">
         <a className='icon_area' href='https://www.linkedin.com/in/leonardo-tsutomu-yamashiro/' target="_blank">
-          <img className="icon" src="./images/linkedin-logo.png" ></img>
+          <img className="icon" src={"/static/img/linkedin-logo.png"} ></img>
         </a>
         <a className='icon_area' href='https://github.com/leotyama' target="_blank">
-          <img className="icon" src="./images/github-logo.png" ></img>
+          <img className="icon" src={"/static/img/github-logo.png"} ></img>
         </a>
         <a className='icon_area' href='https://mail.google.com/mail/u/0/?fs=1&to=ltyamashiro@gmail.com&tf=cm' target="_blank">
-          <img className="icon" src="./images/email-icon.png" ></img>
+          <img className="icon" src={"static/img/email-icon.png"} ></img>
         </a>
       </div>
       <div className="skills">
