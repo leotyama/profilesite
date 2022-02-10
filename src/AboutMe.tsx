@@ -14,7 +14,8 @@ function AboutMe() {
         {
           textAlign: "center",
           color: "#B3B8CD",
-          padding: "50px"
+          padding: "50px",
+          margin: "20px"
         }}
       >I Studied at UNESP (Júlio de Mesquita Filho State University) at Rio Claro, a city in the State of São Paulo. I also studied for 2 semesters in CSUMB
       (California State University Monterey Bay) from August, 2015 until May, 2016. During the Summer of 2016, I was a Research Assistant in SDSU (San Diego State Univesity).

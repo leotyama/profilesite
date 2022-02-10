@@ -24,9 +24,13 @@ h6 {
   text-transform: uppercase;
 }
 
-p {
+p .position {
   font-size: 16px;
   line-height: 21px;
+}
+
+.container-area {
+  text-align: center;
 }
 
 .card-container {
@@ -39,6 +43,7 @@ p {
    width: 500px;
    max-width: 100%;
    text-align: center;
+   margin: auto;
 }
 
 .card-container .round {
