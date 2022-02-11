@@ -4,12 +4,6 @@ import { CSSTransition } from 'react-transition-group'
 import { Transition } from 'react-transition-group'
 import Fade from 'react-reveal/Fade'
 
-function handleToggle(show: boolean) {
-  show = true;
-  return show;
-
-}
-
 function App() {
   return (
     <Fade down>
